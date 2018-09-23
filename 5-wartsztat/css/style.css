@@ -8,6 +8,9 @@ form{
     width: 50%;
     padding: 30px;
 }
+form input, form select{
+    margin-bottom: 5px;
+}
 form > label{
     display: block;
     margin: 5px;
@@ -15,11 +18,15 @@ form > label{
 form > input{
     background-color: #2b4a64;
 }
-form > input[type="text"], form > input[type="email"], form > input[type="tel"]{
+form > input[type="text"], 
+form > input[type="email"], 
+form > input[type="tel"]{
     width: 250px;
     height: 25px;
 }
-form > input:focus, form > select:focus, textarea:focus{
+form > input:focus, 
+form > select:focus, 
+textarea:focus{
     background-color: #4e708c;
     border: 1px #ffffff solid;
     color: #ffffff;
@@ -44,5 +51,9 @@ form > input[type="submit"]{
     background-color: limegreen;
     margin-top: 30px;
     padding: 10px 20px 10px 20px;
-    font-weight: 900;
+    font-weight: 900;text-transform: uppercase;
+    
+}
+form > p{
+    margin: 5px;
 }
