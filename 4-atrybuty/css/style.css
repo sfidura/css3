@@ -1,0 +1,18 @@
+[title]{
+    color: red;
+}
+[title="About me"]{
+    color: olivedrab;
+}
+[title~="Con"]{
+    color: chocolate;
+}
+[title*="tai"]{
+    font-size: 30px;
+}
+[title^="More"]{
+    color: blueviolet;
+}
+[title$="skills"]{
+    color: darkgreen;
+}
