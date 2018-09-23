@@ -1,0 +1,10 @@
+p{
+    color: brown;
+    background-color: blanchedalmond;
+}
+#p-1::before{
+    content: "[]";
+    color: chocolate;
+    font: 200px bold;
+    float: left;
+}
