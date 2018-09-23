@@ -1,0 +1,40 @@
+*{
+    color: antiquewhite;
+}
+body{
+    background-color: darkgrey;
+}
+h1{
+    color: brown;
+}
+p{
+    color: burlywood;
+}
+#pid{
+    color: cadetblue;
+}
+.pcl{
+    color: crimson;
+    background-color: bisque;
+}
+ul a{
+    color: blueviolet;
+}
+a > span{
+    background-color: cornflowerblue;
+}
+ul>li{
+    color: darkorange;
+    background-color: aliceblue;
+    padding: 5px;
+    margin: 5px;
+}
+#li-1 ~ li{
+    border: 1px dashed red;
+}
+#li-1 + li{
+    border: 1px solid orange;
+}
+div.pcl{
+    background-color: chocolate;
+}
